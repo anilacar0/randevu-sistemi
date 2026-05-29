@@ -55,7 +55,7 @@ while(1):
                 giris_sifre=input("Şifrenizi giriniz : ")
                 if giris_ad!="" and giris_sifre!="":
                     ad_bilgi,tel_bilgi,tc_bilgi=doktorgiris(giris_ad,giris_sifre)
-                    if bilgi!=None:
+                    if ad_bilgi!=None:
                         print("girişiniz başarıyla yapılmıştır sayın {}".format(ad_bilgi))
                         istemci=2
                         break
